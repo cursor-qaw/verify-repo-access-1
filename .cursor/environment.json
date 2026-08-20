@@ -1,0 +1,11 @@
+{
+  "name": "todo-application",
+  "install": "npm ci",
+  "terminals": [
+    {
+      "name": "dev-server",
+      "command": "BROWSER=none npm start"
+    }
+  ],
+  "ports": [3000]
+}
